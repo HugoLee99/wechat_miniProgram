@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/advertise/advertise",
+    "pages/teach/teach",
+    "pages/interact/interact"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "非遗传承项目",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#f5f5f5",
+    "borderStyle": "black",
+    "list":[{
+      "pagePath": "pages/home/home",
+      "text":"主页",
+      "iconPath": "icon/tabBar/zhuye.png",
+      "selectedIconPath": "icon/tabBar/zhuye.png"
+    },{
+      "pagePath": "pages/advertise/advertise",
+      "text":"宣传",
+      "iconPath": "icon/tabBar/tixing.png",
+      "selectedIconPath": "icon/tabBar/tixing.png"
+    },{
+      "pagePath": "pages/teach/teach",
+      "text": "教学",
+      "iconPath": "icon/tabBar/yuyue-copy.png",
+      "selectedIconPath": "icon/tabBar/yuyue-copy.png"
+    },{
+      "pagePath": "pages/interact/interact",
+      "text": "互动",
+      "iconPath": "icon/tabBar/weibiaoti2fuzhi12.png",
+      "selectedIconPath": "icon/tabBar/weibiaoti2fuzhi12.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+} 

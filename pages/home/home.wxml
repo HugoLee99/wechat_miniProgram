@@ -1,0 +1,31 @@
+<!--pages/index/index.wxml-->
+<swiper class="swiper" autoplay indicator-dots indicator-color="rgba(210, 200, 200, 203)" indicator-active-color="#EBEBEB" interval="2000" circular>
+ <swiper-item><image mode="aspectFill" src="/icon/home/1.png"></image></swiper-item>
+ <swiper-item><image mode="aspectFill" src="/icon/home/2.png"></image></swiper-item>
+ <swiper-item><image mode="scaleToFill" src="/icon/home/3.png"></image></swiper-item>
+</swiper>
+
+
+  <view class="page-body">
+    <view class="page-section">
+     
+      <view class="page-section-spacing">
+        <scroll-view scroll-y="true" style="height: 650rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+          <view>
+            <navigator url="https://cn.bing.com/">
+              <image src="/icon/demo1.png" mode="aspectFill" ></image>
+            </navigator>
+            <navigator url="your_url_here">
+              <image src="/icon/demo2.png" mode="aspectFit"></image>
+            </navigator>
+            <navigator url="your_url_here">
+              <image src="/icon/demo3.png" mode="aspectFit"></image>
+            </navigator>
+         </view>
+          <view id="demo2"  class="scroll-view-item demo-text-2"></view>
+          <view id="demo3" class="scroll-view-item demo-text-3"></view>
+        </scroll-view>
+      </view>
+      
+    </view>
+  </view>

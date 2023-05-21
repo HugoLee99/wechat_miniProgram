@@ -3,7 +3,14 @@
   background-color: aliceblue;
 }
 .page-section-spacing{
-  margin-top: 60rpx;
+  margin-top: 50rpx;
+}
+.page-section-spacing image{
+  height: 200rpx;
+
+}
+.whole-container{
+  margin: auto;
 }
 .scroll-view_H{
   white-space: nowrap;
@@ -15,3 +22,9 @@
   height: 300rpx;
 }
 
+image{
+  width: 95%;
+  margin-left: 2.5% ;
+  border-radius: 22rpx !important;
+  height: 200px;
+} 
